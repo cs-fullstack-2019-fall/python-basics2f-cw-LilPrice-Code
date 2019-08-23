@@ -8,10 +8,11 @@ import random
 # Using concatenation and the + and 2) Using an f-string. Sample output:
 # YOUR_GREETING_VARIABLE YOUR_NAME_VARIABLE!!! I hear that you are YOUR_MY_AGE_VARIABLE today!
 
-# greeting = ("Heyo")
-# myName = ("Shoshard")
-# myAgge = ("22")
-# print(f'{greeting} {myName}!!! I hear that you are {myAgge} today!')
+greeting = ("Heyo")
+myName = ("Shoshard")
+myAgge = ("22")
+print(f'{greeting} {myName}!!! I hear that you are {myAgge} today!')
+# you did not include a version using concatenation
 
 # Problem 2:
 #
@@ -19,10 +20,11 @@ import random
 # Create a loop that quits with the user's quit word. If the user doesn't enter that word, ask them to guess again.
 #
 
-# secr = ("red")
-# user = ""
-# while user != secr:
-#     user = input("Enter the password\n")
+secr = ("red")
+# the secret password should be defined by the user not hard coded
+user = ""
+while user != secr:
+    user = input("Enter the password\n")
 
 # Problem 3:
 #
@@ -37,10 +39,10 @@ import random
 #     .
 #     .
 
-# num1 = 1
-# while num1 <= 50:
-#     print(f'{num1} {num1} {num1}')
-#     num1 += 1
+num1 = 1
+while num1 <= 50:
+    print(f'{num1} {num1} {num1}')
+    num1 += 1
 
 
 #     Problem 4:
@@ -49,10 +51,10 @@ import random
 # Ask the user to guess the random number. Keep letting the user guess until they get it right, then quit.
 #
 
-# ran = random.randint(1,10)
-# user = 0
-# while user != ran:
-#     user = int(input("Guess the random between 1 and 10\n"))
+ran = random.randint(1,10)
+user = 0
+while user != ran:
+    user = int(input("Guess the random between 1 and 10\n"))
 
 #     Challenge
 #
